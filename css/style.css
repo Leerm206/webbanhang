@@ -318,117 +318,6 @@ button {
 
 /* header section end */
 
-/* banner section start */
-
-.banner_section {
-  width: 100%;
-  float: left;
-  position: relative;
-  z-index: 2;
-  padding-bottom: 150px;
-}
-.border_1 {
-  border: 2px solid #627b8a;
-  position: relative;
-  height: 627px;
-  margin-top: 59px;
-}
-
-.image_1 {
-  width: 100%;
-  position: absolute;
-  top: -60px;
-  z-index: -1;
-}
-
-.image_2 {
-  width: 400px;
-  padding-top: 160px;
-  position: relative;
-}
-.banner_taital {
-  width: 100%;
-  margin: 0 auto;
-  font-size: 80px;
-  color: #143a51;
-  text-align: center;
-  padding-top: 150px;
-}
-
-.buynow_bt {
-  width: 169px;
-  float: left;
-}
-.buynow_bt a {
-  width: 100%;
-  float: left;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #143a51;
-  text-align: center;
-  padding: 10px 0px;
-}
-.buynow_bt a:hover {
-  color: #ffffff;
-  background-color: #ff5d68;
-}
-.buynow_bt.active a {
-  color: #ffffff;
-  background-color: #ff5d68;
-}
-
-.contact_bt {
-  width: 169px;
-  float: left;
-  margin-left: 10px;
-}
-.contact_bt a {
-  width: 100%;
-  float: left;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #143a51;
-  text-align: center;
-  padding: 10px 0px;
-}
-.contact_bt a:hover {
-  background-color: #ff5d68;
-  color: #ffffff;
-}
-
-#my_slider a.carousel-control-next {
-  position: absolute;
-  right: 20px;
-  top: 44%;
-}
-
-#my_slider a.carousel-control-prev {
-  position: absolute;
-  left: 20px;
-  top: 44%;
-}
-
-#my_slider .carousel-control-prev,
-#my_slider .carousel-control-next {
-  width: 45px;
-  height: 45px;
-  background: #143a51;
-  opacity: 1;
-  font-size: 24px;
-  color: #ffffff;
-  border-radius: 100%;
-}
-
-#my_slider .carousel-control-prev:hover,
-#my_slider .carousel-control-next:hover,
-#my_slider .carousel-control-prev:focus,
-#my_slider .carousel-control-next:focus {
-  background: #ff5d68;
-  color: #ffffff;
-}
-
-/* banner section end */
-
 /* catagary section start */
 .catagary_section {
   width: 100%;
@@ -436,6 +325,7 @@ button {
   background-color: #143a51;
   height: auto;
   padding: 30px 0px;
+  position: relative;
 }
 .catagary_main {
   width: 100%;
@@ -444,6 +334,7 @@ button {
 .catagary_left {
   width: 20%;
   float: left;
+  position: relative;
 }
 .catagary_right {
   width: 80%;
@@ -986,4 +877,11 @@ button {
 .send_bt a:hover {
   background-color: #000;
   color: #fefeff;
+}
+/*sale*/
+.sale {
+  position: absolute;
+  right: 150px;
+  z-index: 999999;
+  width: 190px;
 }
