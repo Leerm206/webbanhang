@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  color: #666666;
+  color: #000000;
   font-size: 14px;
   line-height: 1.80857;
   font-weight: normal;
@@ -884,4 +884,82 @@ button {
   right: 150px;
   z-index: 999999;
   width: 190px;
+}
+/*--infor--*/
+
+.tên {
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  display: flex;
+}
+.infor {
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 5px;
+  font-size: 16px;
+}
+.infor table tr th {
+  padding-right: 20px;
+  border-bottom: 2.5px solid #90d5da;
+}
+.thongso {
+  text-align: center;
+}
+.sp_img a img {
+  transition: transform 0.3s;
+}
+
+.sp_img a img:hover {
+  transform: translateY(-15px);
+}
+/*--slide--*/
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-show {
+  width: 780px;
+  overflow: hidden;
+  position: relative;
+}
+.list-images {
+  display: flex;
+  transition: 0.5s;
+}
+.but:hover {
+  color: white;
+}
+.but {
+  font-size: 45px;
+  color: #999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.but-left {
+  left: 10px;
+}
+.but-right {
+  right: 10px;
+}
+.index-images {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.index-item {
+  border: 2px solid #999;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #999;
 }

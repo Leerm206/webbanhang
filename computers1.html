@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>Leeshop</title>
+    <title>Laptop</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -33,9 +33,6 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
       rel="stylesheet"
     />
-    <!-- owl stylesheets -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
@@ -45,6 +42,10 @@
       href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
       rel="stylesheet"
       type="text/css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
     />
   </head>
   <body>
@@ -116,59 +117,76 @@
 
     <div class="sp_section layout_padding">
       <div class="container">
-        <h1 class="Categary_input">Phone</h1>
+        <a href="computers.html"><h1 class="Categary_input">Laptop</h1></a>
       </div>
     </div>
     <div class="section2">
       <div class="container-fluid">
         <div class="main">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="sp_img">
-                <a href="phone1.html"><img src="images/đt1.png" /></a>
-              </div>
-              <div class="sp_text_main">
-                <h4 class="dell_text">
-                  <a href="phone1.html">iPhone 16 Pro Max</a>
-                </h4>
-              </div>
-              <h6 class="price_text" style="text-align: center">
-                <a href="#">34.490.000<sub>đ</sub></a>
-              </h6>
-              <div class="cart_bt_1">
-                <a href="" onclick="add(this)">Add To Cart</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="sp_img">
-                <a href="phone2.html"><img src="images/đt2.png" /></a>
-              </div>
-              <div class="sp_text_main">
-                <h4 class="dell_text">
-                  <a href="phone2.html">OPPO Find X8 5G 16GB/512GB</a>
-                </h4>
-              </div>
-              <h6 class="price_text" style="text-align: center">
-                <a href="#">29.990.000<sub>đ</sub></a>
-              </h6>
-              <div class="cart_bt_1">
-                <a href="" onclick="add(this)">Add To Cart</a>
+          <div class="row" class="infor">
+            <div class="col-8" class="silde">
+              <div class="slide-show">
+                <div class="list-images">
+                  <img src="images/laptop1-1.jpg" width="800px" alt="" />
+                  <img src="images/laptop1-2.jpg" width="800px" alt="" />
+                  <img src="images/laptop1-3.jpg" width="800px" alt="" />
+                  <img src="images/laptop1-4.jpg" width="800px" alt="" />
+                </div>
+                <div class="buts">
+                  <div class="but-left but">
+                    <a onclick="butleft()"
+                      ><i class="bx bx-chevron-left"></i
+                    ></a>
+                  </div>
+                  <div class="but-right but">
+                    <a onclick="butright()"
+                      ><i class="bx bx-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="index-images">
+                  <div class="index-item index-item-0 active"></div>
+                  <div class="index-item index-item-1"></div>
+                  <div class="index-item index-item-2"></div>
+                  <div class="index-item index-item-3"></div>
+                </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="sp_img">
-                <a href="phone3.html"><img src="images/đt3.png" alt="" /></a>
-              </div>
-              <div class="sp_text_main">
-                <h4 class="dell_text">
-                  <a href="phone3.html">Samsung Galaxy A55 5G</a>
-                </h4>
-              </div>
-              <h6 class="price_text" style="text-align: center">
-                <a href="#">9.290.000<sub>đ</sub></a>
-              </h6>
-              <div class="cart_bt_1">
-                <a href="" onclick="add(this)">Add To Cart</a>
+            <div class="col-4">
+              <p>
+                <b class="tên"
+                  >Laptop Apple MacBook Air 13 inch M1 8GB/256GB (MGN63SA/A)</b
+                >
+              </p>
+              <div class="infor">
+                <h2 style="font-size: 18px">
+                  Giá tiền: <span class="price">18.190.000</span>VNĐ
+                </h2>
+                <table>
+                  <h1 style="font-size: 20px" class="thongso">
+                    <b>Thông số</b>
+                  </h1>
+                  <tr>
+                    <th><strong>Công nghệ CPU:</strong></th>
+                    <th>Apple M1</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Ram</strong></th>
+                    <th>8 GB</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Ổ cứng:</strong></th>
+                    <th>256 GB SSD</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Màn hình:</strong></th>
+                    <th>13.3"</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Card màn hình: </strong></th>
+                    <th>Card tích hợp - 7 nhân GPU</th>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
@@ -291,5 +309,6 @@
       }
     </script>
     <script src="js/cart.js"></script>
+    <script src="js/slide.js"></script>
   </body>
 </html>

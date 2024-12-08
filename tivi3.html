@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>Leeshop</title>
+    <title>Laptop</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -45,6 +45,10 @@
       href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
       rel="stylesheet"
       type="text/css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
     />
   </head>
   <body>
@@ -116,59 +120,88 @@
 
     <div class="sp_section layout_padding">
       <div class="container">
-        <h1 class="Categary_input">Phone</h1>
+        <a href="tivi.html"><h1 class="Categary_input">Tivi</h1></a>
       </div>
     </div>
     <div class="section2">
       <div class="container-fluid">
         <div class="main">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="sp_img">
-                <a href="phone1.html"><img src="images/đt1.png" /></a>
-              </div>
-              <div class="sp_text_main">
-                <h4 class="dell_text">
-                  <a href="phone1.html">iPhone 16 Pro Max</a>
-                </h4>
-              </div>
-              <h6 class="price_text" style="text-align: center">
-                <a href="#">34.490.000<sub>đ</sub></a>
-              </h6>
-              <div class="cart_bt_1">
-                <a href="" onclick="add(this)">Add To Cart</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="sp_img">
-                <a href="phone2.html"><img src="images/đt2.png" /></a>
-              </div>
-              <div class="sp_text_main">
-                <h4 class="dell_text">
-                  <a href="phone2.html">OPPO Find X8 5G 16GB/512GB</a>
-                </h4>
-              </div>
-              <h6 class="price_text" style="text-align: center">
-                <a href="#">29.990.000<sub>đ</sub></a>
-              </h6>
-              <div class="cart_bt_1">
-                <a href="" onclick="add(this)">Add To Cart</a>
+          <div class="row" class="infor">
+            <div class="col-8" class="silde">
+              <div class="slide-show">
+                <div class="list-images">
+                  <img src="images/tivi3-1.jpg" width="800px" alt="" />
+                  <img src="images/tivi3-2.jpg" width="800px" alt="" />
+                  <img src="images/tivi3-3.gif" width="800px" alt="" />
+                  <img src="images/tivi3-4.jpg" width="800px" alt="" />
+                </div>
+                <div class="buts">
+                  <div class="but-left but">
+                    <a onclick="butleft()"
+                      ><i class="bx bx-chevron-left"></i
+                    ></a>
+                  </div>
+                  <div class="but-right but">
+                    <a onclick="butright()"
+                      ><i class="bx bx-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="index-images">
+                  <div class="index-item index-item-0 active"></div>
+                  <div class="index-item index-item-1"></div>
+                  <div class="index-item index-item-2"></div>
+                  <div class="index-item index-item-3"></div>
+                </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="sp_img">
-                <a href="phone3.html"><img src="images/đt3.png" alt="" /></a>
-              </div>
-              <div class="sp_text_main">
-                <h4 class="dell_text">
-                  <a href="phone3.html">Samsung Galaxy A55 5G</a>
-                </h4>
-              </div>
-              <h6 class="price_text" style="text-align: center">
-                <a href="#">9.290.000<sub>đ</sub></a>
-              </h6>
-              <div class="cart_bt_1">
-                <a href="" onclick="add(this)">Add To Cart</a>
+            <div class="col-4">
+              <p>
+                <b class="tên"
+                  >Smart Tivi Samsung 4K Crystal UHD 55 inch UA55BU8000</b
+                >
+              </p>
+              <div class="infor">
+                <h2 style="font-size: 18px">
+                  Giá tiền: <span class="price">12.290.000</span>VNĐ
+                </h2>
+                <table>
+                  <h1 style="font-size: 20px" class="thongso">
+                    <b>Thông số</b>
+                  </h1>
+                  <tr>
+                    <th><strong>Loại Tivi:</strong></th>
+                    <th>Smart Tivi</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Kích cỡ màn hình:</strong></th>
+                    <th>55 inch</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Độ phân giải:</strong></th>
+                    <th>4K</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Hệ điều hành:</strong></th>
+                    <th>Tizen</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Chất liệu chân đế:</strong></th>
+                    <th>Nhựa</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Chất liệu viền tivi:</strong></th>
+                    <th>Nhựa</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Nơi sản xuất:</strong></th>
+                    <th>Việt Nam</th>
+                  </tr>
+                  <tr>
+                    <th><strong>Năm sản xuất: </strong></th>
+                    <th>2022</th>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
@@ -291,5 +324,6 @@
       }
     </script>
     <script src="js/cart.js"></script>
+    <script src="js/slide.js"></script>
   </body>
 </html>
