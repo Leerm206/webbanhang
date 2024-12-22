@@ -878,15 +878,7 @@ button {
   background-color: #000;
   color: #fefeff;
 }
-/*sale*/
-.sale {
-  position: absolute;
-  right: 150px;
-  z-index: 999999;
-  width: 190px;
-}
 /*--infor--*/
-
 .tên {
   color: black;
   text-align: center;
@@ -962,4 +954,14 @@ button {
 }
 .active {
   background-color: #999;
+}
+/*--discount--*/
+.discount {
+  font-size: 16px;
+  color: #fc0011;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.discount a {
+  color: #fa0011;
 }
