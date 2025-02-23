@@ -113,19 +113,10 @@
               id="comment"
               name="text"
             ></textarea>
-            <select id="Checkout" onchange="kiemTraThanhToan()">
-              <option value="#" style="text-align: center">
-                Payment Methods
-              </option>
-              <option value="cod" style="text-align: center">
-                Pay on delivery
-              </option>
-              <option value="prepaid" style="text-align: center">
-                Pay now
-              </option>
-            </select>
-            <div class="Confirmbt">
-              <a href="#" onclick="openqr()">Confirm</a>
+            <div class="checkout">
+              <a href="#" class="Payondelivery">Pay on delivery</a>
+              <a href="#" class="Paynow" onclick="openqr()">Paynow</a>
+            </div>
             </div>
           </div>
         </div>
@@ -134,7 +125,10 @@
     <div id="qr" class="bang">
       <div class="bang-content">
         <h3>Mã QR ngân hàng</h3>
-        <img src="images/qr.jpg" alt="Mã QR ngân hàng" />
+        <img
+          src="https://img.vietqr.io/image/MB-141020066789-qr_only.png?amount=10000&addInfo=Tien%20mua%20hang&accountName=LE%20DUY%20MANH"
+          alt="Mã QR ngân hàng"
+        />
         <p>Quét mã QR để thanh toán</p>
         <button class="closebang" onclick="closeqr()">Đóng</button>
       </div>

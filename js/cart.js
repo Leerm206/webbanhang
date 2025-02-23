@@ -23,7 +23,6 @@ function addcart(price, img, name) {
   }
 
   localStorage.setItem("cart", JSON.stringify(cartItems));
-  alert("Đã thêm sản phẩm vào giỏ hàng!");
 }
 
 function loadCart() {
