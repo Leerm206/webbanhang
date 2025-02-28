@@ -61,6 +61,7 @@ function loadCart() {
     }
   }
   total.innerText = kq + " đ";
+  return totalPrice;
 }
 
 function xoa(name) {
@@ -84,4 +85,12 @@ function updateSL(name, SL) {
 
 window.onload = function () {
   loadCart();
+};
+window.onload = function () {
+  const totalPrice = loadCart();
+  const qr = document.querySelector(".hienthiqr");
+  qr.innerHTML = `<img
+          src="https://img.vietqr.io/image/MB-141020066789-qr_only.png?amount=${totalPrice}&addInfo=Tien%20mua%20hang&accountName=LE%20DUY%20MANH"
+          alt="Mã QR ngân hàng"
+        />`;
 };
